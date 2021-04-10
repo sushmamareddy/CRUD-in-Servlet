@@ -8,9 +8,9 @@ public class EmpDao {
 		Connection con = null;
 		try
 		{
-			String url = "jdbc:mysql://localhost:3306/practice1";
+			String url = "jdbc:mysql://localhost:3306/database1";
 			String user = "root";
-			String pass="Sriya@2002";
+			String pass="";
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url,user,pass);
 		}
